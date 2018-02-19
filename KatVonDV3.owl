@@ -1,0 +1,292 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/alisonfayemclaughlin/ontologies/2018/1/KatVonDMakeup#"
+     xml:base="http://www.semanticweb.org/alisonfayemclaughlin/ontologies/2018/1/KatVonDMakeup"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/alisonfayemclaughlin/ontologies/2018/1/KatVonDMakeup">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">This ontology will describe Kat Von D&apos;s line of makeup</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/MAKEUP -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/MAKEUP">
+        <rdfs:comment>Full spectrum of makeup palettes and hand-picked makeup sets at value pricing.</rdfs:comment>
+        <rdfs:label xml:lang="en">SETS AND PALLETTES</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/MAKEUP_0000068 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/MAKEUP_0000068">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/MAKEUP"/>
+        <rdfs:label xml:lang="en">Lipstick Set</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000034 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000034">
+        <rdfs:comment>Long-lasting, high pigment, vegan lipstick.  Waterproof liquid lipsticks, budge-proof lip liners, and super-creamy bullet lipsticks in a range of shades.</rdfs:comment>
+        <rdfs:label xml:lang="en">LIP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000036 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000036">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000034"/>
+        <rdfs:label xml:lang="en">Liquid Lipstick</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000037 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000037">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000034"/>
+        <rdfs:label xml:lang="en">Glimmer Veil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000038 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000038">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000034"/>
+        <rdfs:label xml:lang="en">Lip Liner</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000039 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000039">
+        <rdfs:comment>Buttery, buildable and ultra-blendable eyeshadows, award-winning eyeliners and eyeshadow palettes with a range of shades and finishes hand-picked by Kat Von D.</rdfs:comment>
+        <rdfs:label xml:lang="en">EYE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000041 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000041">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000039"/>
+        <rdfs:label xml:lang="en">Eyeliner</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000042 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000042">
+        <rdfs:comment>Vegan face makeup collection includes full-coverage concealers, powders and liquid foundations for every skin tone, a hydrating face primer and makeup setting mist to keep long-wear makeup looking fresh, cream and powder contour palettes, and highlighter palettes.</rdfs:comment>
+        <rdfs:label xml:lang="en">FACE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000043 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000043">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000042"/>
+        <rdfs:label xml:lang="en">Foundation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000044 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000044">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000042"/>
+        <rdfs:label xml:lang="en">Concealer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000046 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000046">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000042"/>
+        <rdfs:label xml:lang="en">Powder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000048 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000048">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000042"/>
+        <rdfs:label xml:lang="en">Primer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000049 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000049">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000042"/>
+        <rdfs:label xml:lang="en">Setting Mist</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000052 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000052">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/MAKEUP"/>
+        <rdfs:label xml:lang="en">Combinations</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000053 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000053">
+        <rdfs:comment>Tools to brush, buff, bake, and blend your look. Includes specially-angled contour brushes, sculpted concealer brushes, etc. Also includes a mirror.</rdfs:comment>
+        <rdfs:label xml:lang="en">BRUSHES AND MIRRORS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000054 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000054">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000053"/>
+        <rdfs:label xml:lang="en">Face Brushes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000055 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000055">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000053"/>
+        <rdfs:label xml:lang="en">Eye Brushes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000056 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000056">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000053"/>
+        <rdfs:label xml:lang="en">Mirrors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000057 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000057">
+        <rdfs:comment>Two signature fragrences in varrying volumes and applicators.</rdfs:comment>
+        <rdfs:label xml:lang="en">FRAGRANCE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000058 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000058">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000057"/>
+        <rdfs:label xml:lang="en">Saint and Sinner Eau de Parfum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000063 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000063">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000039"/>
+        <rdfs:label xml:lang="en">Eyeshadow</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000064 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000064">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/MAKEUP"/>
+        <rdfs:label xml:lang="en">Eyeshadow Pallette</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000065 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000065">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/MAKEUP"/>
+        <rdfs:label xml:lang="en">Contour Pallete</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000066 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000066">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/MAKEUP"/>
+        <rdfs:label xml:lang="en">Highlighter Pallette</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000067 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000067">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/MAKEUP"/>
+        <rdfs:label xml:lang="en">Lip Liner Set</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/MAKEUP"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000034"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000039"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000042"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000053"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000057"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000054"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000055"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000056"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
