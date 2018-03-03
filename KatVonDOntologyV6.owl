@@ -1,0 +1,2043 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/alisonfayemclaughlin/ontologies/2018/1/KatVonDMakeup#"
+     xml:base="http://www.semanticweb.org/alisonfayemclaughlin/ontologies/2018/1/KatVonDMakeup"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ontologies="http://www.pizza.owl/ontologies/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/alisonfayemclaughlin/ontologies/2018/1/KatVonDMakeup">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">This ontology will describe Kat Von D&apos;s line of makeup</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000078 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000078">
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000230 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000230">
+        <rdfs:label xml:lang="en">Reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000200 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000200">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:label xml:lang="en">HasColour</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000202 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000202">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:label xml:lang="en">HasOtherProduct</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000223 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000223">
+        <rdfs:label xml:lang="en">HasPrice</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000224 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000224">
+        <rdfs:label xml:lang="en">HasFinish</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000069 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000069">
+        <ontologies:PIZZA_0000078>Looking for long-lasting, high pigment lipstick? Kat Von D Beauty’s vegan lip lineup will inspire you to express your boldest self with waterproof liquid lipsticks, budge-proof lip liners, and super-creamy bullet lipsticks—all in an insane range of shades. Kick it up a notch with Everlasting Glimmer Veil, a liquid-crystal lipstick that offers the same long wear and high impact as Everlasting Liquid Lipstick, the original matte liquid lipstick that started the craze. From matte to mega-glimmer, Kat Von D’s got everything you need, no matter your lip look.</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/shop-all-products/lip</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">LIPSTICK</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000071 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000071">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000069"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000200"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000113"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000115"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000116"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000121"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000122"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000123"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000124"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000125"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000126"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000128"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000130"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000133"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000134"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000137"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000138"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000139"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000142"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000146"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000151"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000159"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000160"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000162"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000168"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000169"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000170"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000171"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000172"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000173"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000174"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000175"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000176"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000177"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000178"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000232"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000233"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000234"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000235"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000236"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000237"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000224"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000095"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000211"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000212"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000213"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000214"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000216"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000217"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000218"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000202"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000223"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000220"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000078>Introducing the new and reborn Studded Kiss Crème Lipstick, the creamiest, most cushiony and unbelievably pigmented lipstick to ever cross your lips.
+
+Discover your new go-to color from Kat Von D’s biggest, boldest shade range. The collection includes 40 shades in 3 finishes (satin-matte, glimmer and metallic) featuring rich reds, bold berries, neutrals for every complexion and beloved Everlasting Liquid Lipstick shades, now in Studded Kiss. Or use “White Out” mixer, Kat Von D’s first-ever pure white long wear lipstick, to mix and customize your own perfect shades.
+
+Kat Von D Beauty is always on the forefront of innovation, searching for ways to amplify and improve our already long-wear, high-pigment products. Originally created in 2014, the Studded Kiss collection is now reimagined with an updated look featuring monochromatic black studded packaging and a breakthrough new formula.
+
+See and feel the difference instantly. Studded Kiss Crème Lipstick features a high-chroma content for pure, vivid color in a revolutionary new base formula that’s crystal clear, super-soft and virtually weightless. Made with smooth spherical pigments and lip-nourishing ingredients, it’s never been easier to coat your lips in creamy, comfortable color.</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/lip/lipstick/studded-kiss-creme-lipstick/26757.html</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Studded Kiss Crème Lipstick</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000072 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000072">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000069"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000200"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000113"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000114"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000115"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000116"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000117"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000118"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000121"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000122"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000123"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000124"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000125"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000126"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000127"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000128"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000129"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000130"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000131"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000132"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000133"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000134"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000135"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000136"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000137"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000138"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000139"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000140"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000141"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000142"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000143"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000144"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000145"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000146"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000147"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000149"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000150"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000151"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000152"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000153"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000154"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000155"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000156"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000158"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000173"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000174"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000209"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000224"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000095"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000211"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000213"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000202"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000223"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000221"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000078>Meet THE liquid lip that launched a lipstick revolution! The world went matte when Everlasting Liquid Lipstick first debuted: Eye-catching matte lipstick in a comfortable liquid formula with transfer-proof long wear? It was unheard of! 4 years and 40+ shades later, Everlasting Liquid Lipstick is still rockin’ hard as Kat Von D’s #1 bestseller and it’s not hard to see why!
+
+Take your pick from 40+ insanely pigmented shades designed for every skin tone—tons of reds (Kat Von D’s fave!), unique color pops you won’t find anywhere else and a full spectrum of nudes including Lolita, the iconic shade that looks beautiful, and different, on everyone.
+
+Unleash high-pigment, long lasting lipstick with an effortless swipe of the doe-footed wand. Everlasting Liquid Lipstick makes it easy to get a crisp, precise lip look. This creamy formula glides over lips like a gloss and sets to a true matte finish, plus it’s packed with natural moisturizers, including Vitamin E and Sunflower Seed Wax. Matte lipstick has never felt so comfortable!</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/lip/liquid-lipstick/everlasting-liquid-lipstick/20830V1.html</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Everlasting Liquid Lipstick</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000073 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000073">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000069"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000200"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000109"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000110"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000111"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000112"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000224"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000095"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000211"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000214"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000216"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000218"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000202"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000223"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000221"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000078>Kat Von D created four super-special lipsticks to benefit a cause that is extremely close to her heart—animal advocacy and compassionate vegan living. As a devoted volunteer and supporter, Kat partnered with Farm Sanctuary, a nonprofit organization that rescues, rehabilitates, and provides refuge for factory farm animals. For every lipstick sold, 20% of the retail price will go directly to Farm Sanctuary to help end animal suffering.
+
+Each creamy, color-rich shade was named after a Farm Sanctuary animal. Meet “Bruno,” the cow that Farm Sanctuary rehabilitated after he fell out of a speeding truck; “Julia” the pig, rescued from abuse at a factory farm; “Hilda” the sheep, who was the very first animal to arrive at Farm Sanctuary; and “Thumbelina” the chicken, saved from a trucking crate that tumbled onto the highway during transit.
+
+Everlasting Liquid Lipstick gives you long-lasting wear and high-pigment color. Its creamy, color-rich formula glides onto lips like a gloss and dries to a true matte finish. The next-generation formula is infused with natural comfort-enhancing ingredients, including Vitamin E and Sunflower Seed Wax so you can rock Everlasting matte color that keeps lips feeling comfortable.</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/lip/liquid-lipstick/farm-sanctuary-everlasting-liquid-lipstick/40005.html</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Farm Sanctuary Everlasting Liquid Lipstick</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000074 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000074">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000069"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000200"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000179"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000180"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000181"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000182"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000183"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000184"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000185"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000186"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000187"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000205"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000224"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000210"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000214"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000215"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000216"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000218"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000202"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000223"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000221"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000078>Everlasting Glimmer Veil is the ultimate liquid lipstick to fuel your glimmer obsession. This breakthrough formula combines the same long wear, weightless innovation behind Everlasting Liquid Lipstick, with a multidimensional liquid-crystal finish. The result is the world’s very first 24-hour glimmer lipstick.
+
+Kat pushed the limits of performance to deliver 24-hour wear in a rich, glimmery-not-gritty formula that is so lightweight, it feels like nothing. Experience Gel Cushion Comfort—glimmer crystals that are coated in gel to ensure even application and effortless glide. This innovative liquid stain base is packed with iridescent micro-pearls and reflective mirror-crystals for 3 layers of mesmerizing dimension.
+
+Experience 3D effects with a swipe of the wand: Rock Everlasting Glimmer Veil on its own for a light-reflective finish, or layer it as a veil over Everlasting Liquid Lipstick for an ultra-high impact foiled lip look. Available in nine shade-shifting colors, including black, fuchsia, neon pink and not one but two bold blues, this one-of-a-kind liquid lipstick catches the light with every movement.</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/lip/liquid-lipstick/everlasting-glimmer-veil/40004.html</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Everlasting Glimmer Veil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000076 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000076">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000069"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000200"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000121"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000122"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000224"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000095"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000211"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000202"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000228"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000223"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000221"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000078>Calling all Lolita Lovers! Ask and ye shall receive: a limited edition set of mini Everlasting Liquid Lipsticks, dedicated to our favorite little lip shade!
+
+Discover the iconic shade that redefined the classic neutral lip, AND meet her sexy little sister! This duo stars two takes on Kat’s #1 most wanted lip color: Lolita, the hard-to-find original chestnut rose, and Lolita II, a terra cotta nude. It’s double the Lolita, double the fun!
+
+It’s THE life-proof lipstick that will not wear off! Yes, you can eat, drink, make up, and break up knowing your lips are gonna stay flawless through it all!
+
+This creamy formula glides over lips like a gloss and dries to a true matte finish. Along with 24-hour wear and high-pigment color, the next-generation formula is packed with natural moisturizers, like Vitamin E and Sunflower Seed Wax. All-day wear has never felt so comfortable!
+
+Just be sure to catch the Lolitas before they’re gone!</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/lip/liquid-lipstick/lolita-lip-duo/24379.html</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Lolita Lip Duo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000086 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000086">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000069"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000200"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000120"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000123"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000124"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000128"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000144"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000145"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000153"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000238"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000224"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000095"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000211"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000213"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000202"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">7</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000228"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000223"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000221"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000078>A limited edition set of Everlasting Liquid Lipsticks in eight next-level neutral shades, including new and exclusive shade, “Madrid.”
+
+What it does:
+Fall in love with an exclusive lineup of Kat Von D’s bestselling Everlasting Liquid Lipsticks. This set of eight mini shades is the ultimate collection of next-level neutrals for every mood, skin tone, and attitude. Discover a beautiful balance of divine nudes, rebellious statement shades, plus “Madrid,” a new, exclusive shade available only in this limited edition set. Mix and match to create one-of-a-kind combinations, or rock any shade on its own for velvety matte color that won’t wear off.
+
+Everlasting Liquid Lipstick’s breakthrough formula gives lips long-lasting wear and high-pigment color. Its creamy, color-rich formula glides over lips like a gloss but dries to a true matte finish that feels weightless all day long. It’s infused with natural comfort-enhancing ingredients—including vitamin E and sunflower seed—so you can flaunt lasting matte color that leaves lips feeling comfortable.</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/shop-all-products/sets-and-palettes/everlasting-mini-liquid-lip-set/23800.html</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Everlasting Mini Liquid Lip Set</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000087 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000087">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000069"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000224"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000095"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000211"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000200"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000126"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000202"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000228"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000223"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000220"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000078>Nobody gets us quite like “Mother,” which is why Kat created this mini duo—the Mother Of All lip sets. Rock the beloved dusty mauve pink that works on everyone, in both of Kat’s awesome lip formulas: Everlasting Liquid Lipstick and Studded Kiss Lipstick!
+
+Everlasting Liquid Lipstick is the one and only original bestseller that sparked the liquid lipstick craze! Its creamy, pigment-rich formula glides over lips as smoothly as a gloss, but dries to a true matte finish that feels weightless all day.
+
+Our long-wear, pigment-rich Studded Kiss Lipstick is formulated with Color Cushion Technology™ to keep your pout feeling comfy and velvety soft. Just swipe it across lips to lock in bold, badass color with unstoppable wear.</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/shop-all-products/sets-and-palettes/mother-of-all-mini-lipstick-duo/29473V1.html</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Mother of All Mini Lipstick Duo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000088 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000088">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000069"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000200"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000154"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000155"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000202"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000228"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000224"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000223"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000221"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000078>Discover grays like you’ve never seen them before! Be one of the first to rock cool, gray-dient lips with this mini duo of groundbreaking gray Everlasting Liquid Lipsticks. Featuring two of Kat’s newest moodiest mattes, “Woolf,” a deep stone gray, and “Dagger,” a cool dusty periwinkle-gray, Smoke &amp; Mirrors will inspire you with its unexpectedly neutral shades and universal undertones that look awesome on all complexions!
+
+Everlasting Liquid Lipstick is THE life-proof lipstick that will not wear off! Yes, you can eat, drink, make up, break up and mouth-off knowing your lips are gonna stay flawless through it all! Along with 24-hour wear and high-pigment color, the next-generation formula is packed with natural moisturizers, including vitamin E and sunflower seed wax. All-day wear has never felt so comfortable!
+
+Live happily Everlasting!</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/shop-all-products/sets-and-palettes/smoke-and-mirrors-grayscale-mini-lip-duo/21455.html</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Smoke and Mirrors Grayscale Mini Lip Duo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000089 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000089">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000069"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000200"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000147"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000209"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000202"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000228"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000224"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000223"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000220"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000078>This mini duo features Everlasting Liquid Lipstick in two complementary shades. Become a lip-contouring pro by outlining lips with the ultraviolet Susperia. Then, fill in the center of your lips with the Melancholia shade, its pink companion. Blend them in with your finger, a lip brush, or the doe-foot applicator to reveal perfectly shaped lips. 
+
+Everlasting Liquid Lipstick is THE life-proof lipstick that will not wear off! Yes, you can eat, drink, make up, break up and mouth-off knowing your lips are gonna stay flawless through it all! Along with 24-hour wear and high-pigment color, the next-generation formula is packed with natural moisturizers, including Vitamin E and Sunflower Seed Wax. All-day wear has never felt so comfortable!
+
+Live happily Everlasting!</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/shop-all-products/sets-and-palettes/everlasting-lip-duo-contour-edition/25802.html</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Everlasting Lip Duo Contour Edition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000090 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000090">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000069"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000200"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000116"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000202"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000189"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000224"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000223"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000221"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000078>If we had to choose one look to rock every day, this would be it! The Bow N Arrow Look is the ultimate power pair for an unstoppable bold eye and matte nude lip—and it couldn’t be easier to wear! First, wing out the perfect Kat Eye with Ink Liner in “Trooper,” the most saturated black felt-tip liquid liner ever created. Finish the look with a swipe of Everlasting Liquid Lipstick in bestseller “Bow N Arrow,” a matte fawn nude.
+
+Both minis in this travel-friendly duo were made for each other, with true long wear and waterproof, high-pigment formulas that deliver super-intense payoff with every swipe!</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/shop-all-products/sets-and-palettes/the-bow-n-arrow-look/28865V1.html</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">The Bow N Arrow Look</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000091 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000091">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000069"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000200"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000158"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000202"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000190"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000224"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000223"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000221"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000078>Unleash your inner Sinner with the ultimate fragrance and lipstick power duo. This giftable duo features Sinner Eau De Parfum in a portable travel spray, paired with new Everlasting Liquid Lipstick shade, “Sinner.” This midnight plum perfectly captures the sultry essence of Sinner—and you can only get it in this limited edition set.
+
+Discover Sinner Eau de Parfum’s dark and empowering scent, with notes of patchouli, wood, and cinnamon—the perfect spicy floral fragrance. Sinner is the fragrant embodiment of the edgy, unapologetic, and outspoken Kat Von D we know and love.
+
+Everlasting Liquid Lipstick’s breakthrough formula gives lips long-lasting wear and high-pigment color. Its creamy, color-rich formula glides over lips like a gloss but dries to a true matte finish that feels weightless all day long.</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/shop-all-products/sets-and-palettes/sinner-mini-lipstick-and-fragrance-duo/23763.html</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Sinner Mini Liquid Lipstick &amp; Fragrance Duo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000093 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000093">
+        <ontologies:PIZZA_0000078>This will explain what kind of a finish (look) the liptstick will have</ontologies:PIZZA_0000078>
+        <rdfs:label xml:lang="en">FINISH</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000094 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000094">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000093"/>
+        <owl:disjointWith rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000095"/>
+        <ontologies:PIZZA_0000078>Product will come in a tube with an applicator, rather than as a stick.</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>Previous knowledge from experience</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Liquid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000095 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000095">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000093"/>
+        <ontologies:PIZZA_0000078>The product will look creamy when applied. For a straight-cream finish, there won&apos;t be any detectable glitter or shimmer, but depending on the level of creaminess, there might be a glossy or shiny finish. A cream formula will also be somewhat hydrating on the lips, as it won&apos;t dry down like a matte lipstick would.</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.bustle.com/articles/108615-6-types-of-makeup-finishes-what-to-know-about-all-of-them</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Crème</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000096 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000096">
+        <ontologies:PIZZA_0000078>This lists the available colours for lipsticks. Not every lipstick is available in every colour.</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>Previous knowledge</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">COLOUR</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000109 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000109">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>PEACHY PINK</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Julia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000110 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000110">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>METALLIC FOIL MIDNIGHT BLUE</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Bruno</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000111 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000111">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>WARM SCARLET</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Thumbelina</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000112 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000112">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>TERRA COTTA BRICK</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Hilda</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000113 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000113">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>NUDE PETAL</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Muñeca</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000114 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000114">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>PETAL PINK NUDE</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Noble</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000115 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000115">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>NUDE CHESTNUT</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Ophelia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000116 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000116">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>FAWN NUDE</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Bow N Arrow</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000117 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000117">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>MAUVE NUDE</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Lovesick</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000118 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000118">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>SOFT LILAC</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Requiem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000120 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000120">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>MAUVE PINK NUDE</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Lovecraft</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000121 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000121">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>CHESTNUT ROSE</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Lolita</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000122 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000122">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>TERRA COTTA NUDE</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Lolita II</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000123 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000123">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>TERRA COTTA NUDE</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Hawkwind</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000124 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000124">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>NUDE COFFEE</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Sanctuary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000125 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000125">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>DEEP CHOCOLATE</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Crucifix</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000126 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000126">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>DUSTY MAUVE PINK</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Mother</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000127 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000127">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>WARM ROSE</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Berlin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000128 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000128">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>NUDE FAWN</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Ludwig</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000129 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000129">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>SOFT CORAL</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Beloved</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000130 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000130">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>COCOA BLUSH</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Double Dare</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000131 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000131">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>HOT PINK</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Jeffree</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000132 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000132">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>CARNATION PINK</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Armageddon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000133 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000133">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>VIVID HOT PINK</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Backstage Bambi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000134 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000134">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>BRIGHT ORANGE-RED</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">A-Go-Go</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000135 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000135">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>ORANGE PERSIMMON</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Malice</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000136 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000136">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>POISON APPLE</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Santa Sangre</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000137 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000137">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>BRICK RED</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Outlaw</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000138 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000138">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>BRIGHT CRIMSON</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Underage Red</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000139 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000139">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>BLOOD CRIMSON</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Nahz Fur Atoo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000140 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000140">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>DARK REDDISH FUCHSIA</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Bachelorette</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000141 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000141">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>DEEP RASPBERRY</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Bauhau5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000142 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000142">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>DEEP REDDISH BURGUNDY</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Vampira</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000143 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000143">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>DEEP RUSSET RED</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Plath</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000144 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000144">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>RIPE BLACKBERRY</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Exorcism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000145 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000145">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>BLACK CHERRY</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Damned</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000146 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000146">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>RICH VIOLET</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">L.U.V.</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000147 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000147">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>BRIGHT LAVENDER</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Susperia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000148 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000148">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>BOLD FUCHSIA</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">K-Dub</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000149 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000149">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>RICH MAGENTA</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Miss Argentina</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000150 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000150">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>RICH LAVENDER</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Ayesha</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000151 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000151">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>BRIGHT GRAPE</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Roxy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000152 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000152">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>SATIN NAVY BLUE</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Echo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000153 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000153">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>PITCH BLACK</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Witches</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000154 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000154">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>SMOKY GRAY</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Woolf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000155 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000155">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>COBBLESTONE GRAY</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Dagger</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000156 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000156">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>NEON TURQUOISE</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Dreamer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000158 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000158">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>MIDNIGHT PLUM</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Sinner</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000159 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000159">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>SATIN-MATTE ORIGINAL DUSTY ROSE</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">OG Lolita</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000160 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000160">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>SATIN-MATTE COCO ROSE</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Cathedral</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000162 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000162">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>BLOOD RED</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Hexagram</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000168 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000168">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>GARNET BERRY</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Mercy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000169 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000169">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>DEEP MERLOT</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Prayer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000170 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000170">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>BLACK CHERRY</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Mötorhead</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000171 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000171">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>BLACK BERRY</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Homegirl</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000172 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000172">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>COOL CHOCOLATE WITH PURPLE GLIMMER</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Piaf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000173 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000173">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>DEEP SEAFOAM GREEN</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Plan 9</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000174 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000174">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>DOVE GRAY</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Zero</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000175 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000175">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>NAVY</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Poe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000176 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000176">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>PITCH BLACK WITH GUNMETAL GLIMMER</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Nayeon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000177 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000177">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>PITCH BLACK</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Slayer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000178 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000178">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>FOR MIXING AND CUSTOMIZING SHADES</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">White out Mixer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000179 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000179">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>CHAMPAGNE WITH PINK AND GOLD GLIMMER</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Thunderstruck</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000180 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000180">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>COPPER WITH GOLD GLIMMER</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Rocker</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000181 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000181">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>CRIMSON WITH PINK AND GOLD GLIMMER</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Dazzle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000182 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000182">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>FLUORESCENT PINK AND PINK GLIMMER</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Shockful</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000183 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000183">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>MAGENTA WITH PINK GLIMMER</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Razzle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000184 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000184">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>BRIGHT GRAPE WITH PURPLE GLIMMER</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Televator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000185 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000185">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>COBALT WITH BLUE GLIMMER</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Reverb</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000186 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000186">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>AQUAMARINE WITH BLUE GLIMMER</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Satellite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000187 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000187">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>BLACK WITH GOLD AND PURPLE GLIMMER</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Wizard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000188 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000188">
+        <ontologies:PIZZA_0000078>This category will include other products if the Lipstick is part of a package deal</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>Previous knowledge</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">OTHER PRODUCT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000189 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000189">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000188"/>
+        <ontologies:PIZZA_0000078>Part of a package deal. Lipstick comes with eyeliner</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/lip/lipstick</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Ink Liner in Trooper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000190 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000190">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000188"/>
+        <ontologies:PIZZA_0000078>Part of a package deal. Lipstick comes with perfume.</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/lip/lipstick</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Sinner Eau De Parfum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000191 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000191">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000188"/>
+        <ontologies:PIZZA_0000078>Part of a package deal. Lipstick comes with eyeshadow pallette</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/lip/lipstick</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Shade + Light Eye Contour Quad in &quot;Fawn&quot;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000192 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000192">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000188"/>
+        <ontologies:PIZZA_0000078>Part of a package deal. Lipstick comes with eyeliner</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/lip/lipstick</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Tattoo Liner in Trooper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000193 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000193">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000188"/>
+        <ontologies:PIZZA_0000078>Part of a package deal. Lipstick comes with lip liner</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/lip/lipstick</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Everlasting Lip Liner</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000204 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000204">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000188"/>
+        <ontologies:PIZZA_0000078>This lipstick does not come with any extra products</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/lip/lipstick</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">None</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000205 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000205">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>LAVENDER WITH IRIDESCENT GLIMMER</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Starflyer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000206 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000206">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>HONEYED NUDE</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Dx Divine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000209 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000209">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>ROSE BLUSH</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Melancholia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000210 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000210">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000093"/>
+        <rdfs:label xml:lang="en">Iridescent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000211 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000211">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000093"/>
+        <ontologies:PIZZA_0000078>Devoid of any reflective or shiny particles: No shimmer, no glitter. Because of this inability to reflect light, mattes can appear more flat. In application, lipsticks can feel more dry than other formulas. While this can make mattes harder to work with, it is usually the most long-lasting and transfer-proof formula.</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.bustle.com/articles/108615-6-types-of-makeup-finishes-what-to-know-about-all-of-them</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Matte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000212 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000212">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000093"/>
+        <rdfs:label xml:lang="en">Natural</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000213 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000213">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000093"/>
+        <ontologies:PIZZA_0000078>Between a crème and matte finish. Will not have any reflective properties but will not dry as much as a matte and will not be as transfer proof.</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>Previous knowledge from experience</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Semi-matte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000214 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000214">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000093"/>
+        <ontologies:PIZZA_0000230>More reflective than shimmer, not as reflective as metallic. Usually has visible pieces of glitter in it.</ontologies:PIZZA_0000230>
+        <ontologies:PIZZA_0000230>Previous knowledge from experience</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Glitter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000215 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000215">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000093"/>
+        <rdfs:label xml:lang="en">Luminous</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000216 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000216">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000093"/>
+        <ontologies:PIZZA_0000078>metallics seem to have underlying gold or silver shimmer to give a more foiled effect</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.bustle.com/articles/108615-6-types-of-makeup-finishes-what-to-know-about-all-of-them</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Metallic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000217 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000217">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000093"/>
+        <ontologies:PIZZA_0000078>Between a matte and a cream. It is not as glossy as a cream finish, but not as flat as a matte finish. Texture-wise, it is usually not as drying as a typical matte finish, though also maybe not as hydrating as a cream finish.</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.bustle.com/articles/108615-6-types-of-makeup-finishes-what-to-know-about-all-of-them</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Satin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000218 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000218">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000093"/>
+        <ontologies:PIZZA_0000078>Often used as a catch-all to describe any shadow with light-reflecting properties. Generally speaking though, a shimmer lipstick is not as shiny as a metallic shadow.</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.bustle.com/articles/108615-6-types-of-makeup-finishes-what-to-know-about-all-of-them</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Shimmer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000219 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000219">
+        <ontologies:PIZZA_0000078>This section will include the price of a single product or package</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>Previous knowledge</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">PRICE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000220 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000220">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000219"/>
+        <ontologies:PIZZA_0000078>Price will be between $0 and $19.99</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/lip/lipstick</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">$19.99</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000221 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000221">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000219"/>
+        <ontologies:PIZZA_0000078>Price will be between $20 and $49.99</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/lip/lipstick</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">$49.99</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000222 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000222">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000219"/>
+        <ontologies:PIZZA_0000078>Price will be between $50 and $99.99</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/lip/lipstick</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">$99.99</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000225 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000225">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000069"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000202"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000191"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000192"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000193"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000200"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000116"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000224"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000223"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000222"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <ontologies:PIZZA_0000078>Master the monochromatic look with a full-size, 4-piece, online exclusive set that includes everything you need for step up your everyday look, the Kat Von D way.
+
+To rock the look, start with the Shade + Light Eye Contour Quad in “Fawn,” a never-before-seen eyeshadow palette featuring four neutral matte shades. Lay down the buttery beige base shade, then use the contour, define and highlight shades to create your ideal eye shape. Next, wing it out with bestselling Tattoo Liner, in Kat’s boldest, blackest shade “Trooper Black.”
+
+Complete your look with an ultra-matte, and insanely wearable fawn lip. Line and define your lips with Everlasting Lip Liner and finish it off with a pigment-packed swipe of Everlasting Liquid Lipstick, all in cult-favorite shade, “Bow N Arrow.”</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/shop-all-products/sets-and-palettes/the-fawn-set/the-fawn-set.html</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">The Fawn Set</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000228 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000228">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000188"/>
+        <ontologies:PIZZA_0000078>Part of a package deal. Lipstick comes with one (or more) extrar lipstick(s)</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/lip/lipstick</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Extra Lipstick</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000232 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000232">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>Romantic Magenta</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Crush</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000233 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000233">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>Lavender</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Coven</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000234 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000234">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>Ultra-Violet</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Ozzy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000235 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000235">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>Golden red</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Adora</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000236 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000236">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>Pure scarlet</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Misfit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000237 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000237">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>Gold laced blood red glimmer</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Gold blooded</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/PIZZA_0000238 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000238">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+        <ontologies:PIZZA_0000078>Exclusive shade</ontologies:PIZZA_0000078>
+        <ontologies:PIZZA_0000230>https://www.katvondbeauty.com/</ontologies:PIZZA_0000230>
+        <rdfs:label xml:lang="en">Madrid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000094"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000095"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000210"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000211"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000212"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000213"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000214"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000215"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000216"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000217"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000218"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000189"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000190"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000191"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000192"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000193"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000220"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000221"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000222"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
