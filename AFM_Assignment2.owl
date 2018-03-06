@@ -55,6 +55,7 @@
 
     <owl:ObjectProperty rdf:about="http://www.KatVonDLipstick.owl/ontologies/KatVonDLipstick_0000200">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <ontologies:KatVonDLipstick_0000078>This will connect Lipsticks to their colour</ontologies:KatVonDLipstick_0000078>
         <rdfs:label xml:lang="en">HasColour</rdfs:label>
     </owl:ObjectProperty>
     
@@ -64,6 +65,7 @@
 
     <owl:ObjectProperty rdf:about="http://www.KatVonDLipstick.owl/ontologies/KatVonDLipstick_0000202">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <ontologies:KatVonDLipstick_0000078>This will connect lipsticks in package deals to their other products</ontologies:KatVonDLipstick_0000078>
         <rdfs:label xml:lang="en">HasOtherProduct</rdfs:label>
     </owl:ObjectProperty>
     
@@ -72,6 +74,7 @@
     <!-- http://www.KatVonDLipstick.owl/ontologies/KatVonDLipstick_0000223 -->
 
     <owl:ObjectProperty rdf:about="http://www.KatVonDLipstick.owl/ontologies/KatVonDLipstick_0000223">
+        <ontologies:KatVonDLipstick_0000078>This will connect lipsticks to their maximum price</ontologies:KatVonDLipstick_0000078>
         <rdfs:label xml:lang="en">HasPrice</rdfs:label>
     </owl:ObjectProperty>
     
@@ -80,6 +83,7 @@
     <!-- http://www.KatVonDLipstick.owl/ontologies/KatVonDLipstick_0000224 -->
 
     <owl:ObjectProperty rdf:about="http://www.KatVonDLipstick.owl/ontologies/KatVonDLipstick_0000224">
+        <ontologies:KatVonDLipstick_0000078>This will connect lipsticks to the finish that they have</ontologies:KatVonDLipstick_0000078>
         <rdfs:label xml:lang="en">HasFinish</rdfs:label>
     </owl:ObjectProperty>
     
